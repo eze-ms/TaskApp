@@ -1,0 +1,100 @@
+.button-modal{
+    background: #2f75ff;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+.container-textarea-button-select{
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-guardar{
+    border: none;
+    background-color: #3075ff;
+    color: #fff;
+    padding: 0.45rem 0.5rem;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.box-modal{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-between;
+}
+.tools-list{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.75rem;
+}
+.box-acciones{
+    background-color: #e6e9eb;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.45rem;
+    border-radius: 3px;
+    text-align: left;
+    padding: 0.415rem 2.5rem 0.415rem 0.65rem;
+}
+
+.tool-button{
+    border: none;
+    background-color: #e6e9eb;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #172b4d;
+}
+.acciones{
+    font-size: 13px;
+    letter-spacing: 0;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#nuevaTarea{
+    margin-bottom: 0rem;
+    padding: 7px 0px 7px 8px;
+    width: 206px;
+    border-radius: 4px;}
+
+
+#modal-modal-title{
+    font-weight: bold;
+}
+.custom-textArea{
+    padding: 20px;
+    background-color: #e6e9eb;
+    width: 286px;
+    height: 221px;
+    margin-bottom: 1rem;
+    margin-top: 1.25rem;
+}
+
+
+textarea::placeholder {
+    font-family: 'Roboto', sans-serif;  
+    font-size: 14px; 
+}
+.window-modal{
+    display: flex;
+}
+
+.custom-estado{
+    width: 100px;
+    height: 35px;
+    width: 100px;
+    height: 35px;
+    background-color: #b700ff;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+    border: #b700ff;
+}

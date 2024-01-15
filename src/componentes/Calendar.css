@@ -1,0 +1,54 @@
+.box-calendario{
+    border: 1px solid #e1e1e1;
+    margin-top: 3.7rem;
+    border-radius: 10px;
+    height: 346px;
+    margin-bottom: 0.5rem;
+    width: 90%;
+}
+
+.rdp{
+    display: flex;
+    justify-content: center;
+
+}
+.rdp-caption_label{
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;;
+    color: #363636;
+    padding: 0 1em;
+}
+
+.rdp-head_row{
+    font-family: 'Roboto';
+    font-size: 0.75rem;
+    font-weight: 100;
+    color: #363636;
+    cursor: none;
+
+}
+
+.rdp-cell{
+    font-size: 13px;
+    color: #363636;
+}
+
+.rdp-day_today{
+    background-color: #2f75ff;
+    color: #fff;
+}
+
+.rdp-day_today:hover{
+    color: #363636;
+}
+
+.rdp-nav_icon{
+    width: 10px;
+    height: 10px;
+}
+.rdp-day_selected, .rdp-day_selected:focus-visible, .rdp-day_selected:hover{
+    color: #363636;
+    opacity: 1;
+    background-color: #0000ff00;
+}

@@ -1,0 +1,77 @@
+.list-wrapper{
+    margin: 2rem; 
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 1rem; 
+    background-color: #e5e5de;
+    width: 285px;
+    align-items: flex-start;
+    border: 1px solid #f1f2f4;
+    min-height: 137px; /* Altura máxima */
+}
+
+.titulo-estado-tarea{
+    margin: 0px 0rem 0.5rem 0rem;
+}
+
+.list-to-do-progreso{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    width: 260px;
+}
+
+.list-to-do-finalizadas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    width: 260px;
+}
+.editar{
+    font-size: 14px;
+    margin-top: 0rem;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.box-anyadir{
+    display: flex;
+    align-items: center;
+    margin-top: 0.75rem;
+}
+.anyadir{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+    color: #4d4e4f;
+    align-items: flex-start;
+    margin-top: 0rem;
+    padding-top: 0.5rem;
+
+}
+
+.box-editar-borrar{
+    display: flex;
+}
+
+.boton-editar,.boton-borrar{
+    border: none;
+    background-color: #e5e5de;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #4d4e4f;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.progreso{
+    font-size: 18px;
+    margin: 0;
+}

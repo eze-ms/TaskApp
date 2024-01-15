@@ -1,0 +1,33 @@
+.App-light {
+    background-color: #fff; 
+    color: #000; 
+    display: flex;
+    align-items: center;
+}
+.App-dark {
+    background-color: #000; 
+    color: #fff;
+    display: flex;
+    align-items: center; 
+}
+.box-header{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 1rem 1.15rem 1rem;
+}
+.left-content{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 3.5%;
+    margin-left: 2rem;
+}
+.welcome-message{
+    font-size: 17px;
+    margin-left: 5.5rem;
+}

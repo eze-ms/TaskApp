@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.box-anyadir{
+    display: flex;
+    align-items: center;
+}
+
+
+.boton-anyadir{
+    border: none;
+    background-color: #e5e5de;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #4d4e4f;
+    cursor: pointer;
+}
+
+input, textarea{
+    border: none;
+}
+

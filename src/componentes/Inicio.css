@@ -1,0 +1,9 @@
+.box-section-calendar-chat{
+    display: flex;
+}
+
+.box-calendar-chat{
+    display: flex;
+    flex-direction: column;
+    
+}
